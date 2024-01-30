@@ -25,7 +25,7 @@ class Game
     end
   
     def show_players
-      puts "État du joueur humain :"
+      puts "Ta barre de santé :"
       @human_player.show_state
       puts "Nombre de Predators : #{@players_left - 1}"
     end
